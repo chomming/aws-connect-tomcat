@@ -1,0 +1,520 @@
+26-Dec-2023 08:33:30.957 WARNING [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+26-Dec-2023 08:33:31.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+26-Dec-2023 08:33:31.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+26-Dec-2023 08:33:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+26-Dec-2023 08:33:31.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Dec-2023 08:33:31.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.10.199-190.747.amzn2.x86_64
+26-Dec-2023 08:33:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Dec-2023 08:33:31.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.amzn2.0.2.x86_64/jre
+26-Dec-2023 08:33:31.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_382-b05
+26-Dec-2023 08:33:31.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+26-Dec-2023 08:33:31.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /server/was/instance/test1
+26-Dec-2023 08:33:31.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /server/was/tomcat9
+26-Dec-2023 08:33:31.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/server/was/instance/test1/conf/logging.properties
+26-Dec-2023 08:33:31.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2023 08:33:31.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Dec-2023 08:33:31.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Dec-2023 08:33:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Dec-2023 08:33:31.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Dec-2023 08:33:31.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/server/was/instance/test1
+26-Dec-2023 08:33:31.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/server/was/tomcat9
+26-Dec-2023 08:33:31.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/server/was/instance/test1/temp
+26-Dec-2023 08:33:31.119 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Dec-2023 08:33:33.384 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+26-Dec-2023 08:33:33.539 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3631] milliseconds
+26-Dec-2023 08:33:33.752 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Dec-2023 08:33:33.759 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+26-Dec-2023 08:33:35.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/server/tomcat]
+26-Dec-2023 08:33:35.345 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/server/tomcat] has finished in [117] ms
+26-Dec-2023 08:33:35.345 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/server/was]
+26-Dec-2023 08:33:35.435 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/server/was] has finished in [89] ms
+26-Dec-2023 08:33:35.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/server/log]
+26-Dec-2023 08:33:35.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/server/log] has finished in [91] ms
+26-Dec-2023 08:33:35.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/server/deploy-root]
+26-Dec-2023 08:33:35.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/server/deploy-root] has finished in [97] ms
+26-Dec-2023 08:33:35.686 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+26-Dec-2023 08:33:35.768 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2226] milliseconds
+26-Dec-2023 09:44:36.121 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 09:44:36.122 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 09:44:36.224 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:44:36.226 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 09:44:36.233 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 09:44:36.233 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 09:44:36.259 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:44:36.262 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 09:44:36.262 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 09:44:36.262 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 09:44:36.291 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:44:36.294 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 09:44:36.296 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 09:44:36.297 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 09:44:36.328 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:44:36.329 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 09:46:56.345 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 09:46:56.345 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 09:46:56.384 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:46:56.387 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 09:46:56.388 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 09:46:56.389 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 09:46:56.417 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:46:56.419 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 09:46:56.419 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 09:46:56.419 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 09:46:56.455 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:46:56.457 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 09:46:56.458 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 09:46:56.458 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 09:46:56.489 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:46:56.493 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 09:47:06.493 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 09:47:06.494 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 09:47:06.522 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:47:06.530 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 09:47:06.530 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 09:47:06.534 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 09:47:06.555 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:47:06.566 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 09:47:06.566 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 09:47:06.567 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 09:47:06.588 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:47:06.592 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 09:47:06.593 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 09:47:06.593 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 09:47:06.615 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:47:06.617 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 09:47:46.621 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 09:47:46.621 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 09:47:46.653 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:47:46.655 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 09:47:46.655 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 09:47:46.656 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 09:47:46.680 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:47:46.686 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 09:47:46.687 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 09:47:46.687 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 09:47:46.721 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:47:46.723 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 09:47:46.723 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 09:47:46.723 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 09:47:46.748 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 09:47:46.758 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 11:42:57.201 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 11:42:57.202 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 11:42:57.225 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 11:42:57.226 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 11:42:57.226 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 11:42:57.226 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 11:42:57.246 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 11:42:57.253 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 11:42:57.254 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 11:42:57.254 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 11:42:57.277 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 11:42:57.281 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 11:42:57.284 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 11:42:57.285 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 11:42:57.305 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 11:42:57.309 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 11:43:47.316 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 11:43:47.316 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 11:43:47.336 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 11:43:47.342 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 11:43:47.342 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 11:43:47.342 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 11:43:47.363 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 11:43:47.370 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 11:43:47.370 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 11:43:47.370 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 11:43:47.389 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 11:43:47.398 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 11:43:47.400 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 11:43:47.401 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 11:43:47.426 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 11:43:47.427 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 12:59:17.705 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 12:59:17.705 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 12:59:17.728 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 12:59:17.730 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 12:59:17.732 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 12:59:17.733 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 12:59:17.755 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 12:59:17.757 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 12:59:17.757 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 12:59:17.757 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 12:59:17.781 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 12:59:17.783 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 12:59:17.784 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 12:59:17.784 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 12:59:17.804 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 12:59:17.805 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 12:59:57.808 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 12:59:57.809 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 12:59:57.832 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 12:59:57.841 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 12:59:57.844 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 12:59:57.845 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 12:59:57.866 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 12:59:57.874 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 12:59:57.874 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 12:59:57.874 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 12:59:57.887 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 12:59:57.888 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 12:59:57.892 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 12:59:57.893 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 12:59:57.910 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 12:59:57.916 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 13:01:07.921 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 13:01:07.921 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 13:01:07.936 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:01:07.940 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 13:01:07.940 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 13:01:07.940 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 13:01:07.964 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:01:07.966 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 13:01:07.966 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 13:01:07.966 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 13:01:07.981 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:01:07.982 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 13:01:07.982 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 13:01:07.983 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 13:01:08.004 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:01:08.010 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 13:47:38.182 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 13:47:38.183 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 13:47:38.198 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:47:38.200 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 13:47:38.201 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 13:47:38.203 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 13:47:38.219 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:47:38.221 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 13:47:38.221 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 13:47:38.222 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 13:47:38.241 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:47:38.245 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 13:47:38.250 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 13:47:38.250 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 13:47:38.268 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:47:38.269 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 13:48:58.275 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 13:48:58.275 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 13:48:58.298 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:48:58.299 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 13:48:58.299 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 13:48:58.299 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 13:48:58.315 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:48:58.316 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 13:48:58.317 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 13:48:58.319 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 13:48:58.334 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:48:58.340 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 13:48:58.340 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 13:48:58.340 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 13:48:58.352 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:48:58.359 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 13:50:18.364 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 13:50:18.364 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 13:50:18.386 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:50:18.387 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 13:50:18.388 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 13:50:18.389 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 13:50:18.412 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:50:18.414 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 13:50:18.416 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 13:50:18.417 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 13:50:18.437 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:50:18.438 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 13:50:18.438 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 13:50:18.438 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 13:50:18.451 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 13:50:18.454 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:12:58.538 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:12:58.538 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:12:58.551 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:12:58.552 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:12:58.552 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:12:58.552 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:12:58.572 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:12:58.573 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:12:58.574 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:12:58.574 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:12:58.589 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:12:58.590 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:12:58.591 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:12:58.591 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:12:58.613 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:12:58.614 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:16:28.626 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:16:28.626 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:16:28.647 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:28.648 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:16:28.648 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:16:28.648 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:16:28.662 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:28.662 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:16:28.664 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:16:28.667 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:16:28.685 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:28.687 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:16:28.687 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:16:28.687 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:16:28.711 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:28.717 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:16:48.719 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:16:48.719 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:16:48.740 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:48.741 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:16:48.741 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:16:48.741 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:16:48.748 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:48.752 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:16:48.752 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:16:48.752 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:16:48.764 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:48.769 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:16:48.769 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:16:48.769 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:16:48.788 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:48.790 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:16:58.791 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:16:58.791 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:16:58.800 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:58.801 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:16:58.801 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:16:58.801 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:16:58.818 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:58.825 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:16:58.825 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:16:58.825 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:16:58.842 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:58.843 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:16:58.844 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:16:58.844 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:16:58.859 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:16:58.863 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:17:08.865 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:17:08.865 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:17:08.879 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:08.880 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:17:08.880 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:17:08.880 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:17:08.893 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:08.897 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:17:08.897 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:17:08.897 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:17:08.914 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:08.915 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:17:08.915 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:17:08.915 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:17:08.929 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:08.930 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:17:28.931 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:17:28.931 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:17:28.942 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:28.942 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:17:28.943 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:17:28.943 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:17:28.963 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:28.965 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:17:28.967 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:17:28.967 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:17:28.979 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:28.986 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:17:28.986 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:17:28.986 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:17:28.999 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:29.001 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:17:39.002 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:17:39.002 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:17:39.021 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:39.022 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:17:39.023 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:17:39.023 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:17:39.032 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:39.032 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:17:39.033 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:17:39.033 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:17:39.039 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:39.040 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:17:39.040 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:17:39.040 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:17:39.057 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:39.058 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:17:49.059 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:17:49.059 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:17:49.080 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:49.081 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:17:49.081 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:17:49.081 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:17:49.089 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:49.090 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:17:49.090 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:17:49.091 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:17:49.105 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:49.106 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:17:49.106 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:17:49.106 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:17:49.122 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:49.131 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:17:59.137 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:17:59.137 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:17:59.152 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:59.158 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:17:59.159 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:17:59.160 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:17:59.175 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:59.182 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:17:59.182 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:17:59.182 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:17:59.194 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:59.197 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:17:59.202 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:17:59.202 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:17:59.215 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:17:59.217 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:18:09.221 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:18:09.221 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:18:09.235 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:09.236 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:18:09.236 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:18:09.236 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:18:09.248 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:09.256 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:18:09.257 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:18:09.257 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:18:09.273 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:09.273 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:18:09.280 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:18:09.281 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:18:09.288 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:09.298 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:18:19.301 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:18:19.301 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:18:19.312 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:19.312 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:18:19.313 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:18:19.313 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:18:19.325 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:19.326 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:18:19.326 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:18:19.331 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:18:19.347 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:19.354 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:18:19.354 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:18:19.354 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:18:19.365 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:19.367 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:18:29.367 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:18:29.368 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:18:29.386 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:29.387 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:18:29.387 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:18:29.387 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:18:29.402 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:29.403 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:18:29.403 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:18:29.403 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:18:29.419 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:29.422 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:18:29.422 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:18:29.424 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:18:29.441 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:29.445 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:18:39.447 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:18:39.447 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:18:39.456 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:39.457 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:18:39.457 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:18:39.457 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:18:39.508 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:39.513 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:18:39.513 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:18:39.513 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:18:39.526 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:39.527 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:18:39.528 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:18:39.528 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:18:39.541 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:39.542 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:18:49.543 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:18:49.543 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:18:49.558 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:49.559 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:18:49.560 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:18:49.560 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:18:49.576 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:49.577 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:18:49.577 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:18:49.577 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:18:49.594 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:49.594 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:18:49.595 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:18:49.595 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:18:49.609 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:49.610 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:18:59.610 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:18:59.611 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:18:59.623 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:59.624 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:18:59.624 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:18:59.624 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:18:59.638 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:59.644 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:18:59.645 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:18:59.646 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:18:59.652 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:59.653 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:18:59.653 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:18:59.653 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:18:59.659 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:18:59.660 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:19:09.660 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:19:09.660 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:19:09.677 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:19:09.678 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:19:09.680 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:19:09.680 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:19:09.690 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:19:09.691 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:19:09.691 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:19:09.691 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:19:09.701 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:19:09.702 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:19:09.702 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:19:09.702 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:19:09.714 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:19:09.715 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:20:39.721 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:20:39.721 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:20:39.733 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:20:39.734 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:20:39.734 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:20:39.735 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:20:39.748 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:20:39.749 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:20:39.749 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:20:39.749 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:20:39.758 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:20:39.759 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:20:39.759 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:20:39.759 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:20:39.776 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:20:39.779 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 14:21:29.782 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/log]
+26-Dec-2023 14:21:29.782 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] has started
+26-Dec-2023 14:21:29.796 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:21:29.800 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/log] is completed
+26-Dec-2023 14:21:29.800 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/deploy-root]
+26-Dec-2023 14:21:29.800 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] has started
+26-Dec-2023 14:21:29.814 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:21:29.815 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/deploy-root] is completed
+26-Dec-2023 14:21:29.815 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/tomcat]
+26-Dec-2023 14:21:29.815 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] has started
+26-Dec-2023 14:21:29.824 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:21:29.828 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tomcat] is completed
+26-Dec-2023 14:21:29.831 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/was]
+26-Dec-2023 14:21:29.832 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] has started
+26-Dec-2023 14:21:29.854 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 14:21:29.856 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/was] is completed
+26-Dec-2023 18:00:42.448 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Dec-2023 18:00:42.449 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+26-Dec-2023 18:00:42.456 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Dec-2023 18:00:42.513 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
